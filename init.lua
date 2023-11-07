@@ -274,7 +274,7 @@ require('lazy').setup({
         use_openai_functions_for_edits = false, 
         actions_paths = {}, 
         show_quickfixes_cmd = "Trouble quickfix", 
-        predefined_chat_gpt_prompts = "/home/jonathannewman/.config/nvim/gpt-prompts.csv", 
+        predefined_chat_gpt_prompts = "https://raw.githubusercontent.com/jn202205/nvim/main/gpt-prompts.csv",
       } 
       require("chatgpt").setup(defaults)
     end
